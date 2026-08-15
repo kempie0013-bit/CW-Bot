@@ -368,11 +368,11 @@ export const botConfig = {
   // =========================
   // WELCOME / GOODBYE MESSAGES
   // =========================
-  welcome: {
+  welcome: {Pookie
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! Make sure to check out {regulations}!",
+      "Welcome {user} to {server}! Make sure to check out {memberCount}!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
@@ -380,7 +380,7 @@ export const botConfig = {
     // Channel ID for welcome messages.
     defaultWelcomeChannel: 1538288169877770310,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1538288169877770310,
   },
 
   // =========================
